@@ -1,7 +1,7 @@
 {
   "name": "todobackend-specs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Todobackend Acceptance Tests",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -9,12 +9,21 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "ccarello",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carello/todobackend-specs.git"
+  },
+  "author": "Chet Carello",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carello/todobackend-specs/issues"
+  },
+  "homepage": "https://github.com/carello/todobackend-specs#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "grunt": "^1.0.1",
     "mocha": "^4.0.1",
     "mocha-jenkins-reporter": "^0.3.10",
     "superagent": "^3.8.1",
